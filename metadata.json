@@ -1,0 +1,6 @@
+{
+  "name": "FarmifyAI",
+  "description": "Smart Bilingual Farming Assistant for Pakistani Farmers with Kisan AI Voice Assistant, Chatbot, Crops & Disease Guide, Smart Khata, Mandi Rates, Weather & AI Plant Doctor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
