@@ -10,7 +10,7 @@ FarmifyAI is an Android application designed to support farmers with crop guidan
 - **Offline database:** Room
 - **On-device disease model:** TensorFlow Lite
 - **AI assistant:** Gemini, accessed securely through the backend
-- **Backend deployment:** Render
+- **Backend deployment:** vercel
 
 The Android application does not contain Supabase service-role credentials or the Gemini API key. Sensitive cloud operations are routed through the FastAPI backend.
 
@@ -33,7 +33,7 @@ After deployment, update:
 
 `app/src/main/java/com/example/data/remote/ApiConfig.kt`
 
-with your Render backend URL.
+with your Vercel backend URL.
 
 ## Development notes
 
